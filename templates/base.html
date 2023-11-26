@@ -5,7 +5,7 @@
     <title>{% block title %} {% endblock %} FlaskApp</title>
     <style>
         nav a {
-            color: #d64161;
+            color: black;
             font-size: 3em;
             margin-left: 50px;
             text-decoration: none;
@@ -15,6 +15,7 @@
 <body>
     <nav>
         <a href="{{ url_for('home') }}">FlaskApp</a>
+        <a href="{{ url_for('comments') }}">Comments</a>
         <a href="{{ url_for('about') }}">About</a>
     </nav>
     <hr>
